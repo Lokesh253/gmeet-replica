@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Asap&family=Baloo+2:wght@500&family=Pacifico&display=swap');
+
+body{
+    background-color: #202124;
+}
+h4{
+    color: white;
+    font-weight: 100;
+}
+.row{
+    display: flex;
+    padding: 4px;
+    height: 30px;
+    background-color: crimson;
+    width:fit-content;
+    color: white;
+    border-radius: 10px;
+}
+.row i{
+    padding: 2px;
+}
+.row h4 {
+    display: block;
+
+    padding: 2px;
+    padding-top:8px;
+    text-decoration: none;
+    font-size:1.3vmax;
+    margin: 0px;
+  }
+
+.bar{
+    display: flex;
+}
+.greybar{
+    background-color: #3C4043;
+    width:100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.greybar  h4 {
+    display: block;
+    color: white;
+    padding: 2px;
+    padding-top:10px;
+    padding-left: 16px;
+    text-decoration: none;
+    font-size:1.1vmax;
+    margin: 0px;
+    font-family: 'Asap', sans-serif;
+    letter-spacing: 2px;
+    
+  }
+.presentation{
+    background-color: white;
+    border-radius: 10px;
+    height: 580px;
+    width: 1050px;
+    margin: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.student{
+    border-radius: 10px;
+    width: 200px;
+    height: 120px;
+    background-color:#3C4043 ;
+    margin-top: 20px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border: 20%;
+
+}
+.student img{
+    height: 60px;
+    border-radius: 50%;
+}
+.student .icon{
+position: absolute;
+
+}
+footer{
+    width: 100%;
+    height: 50px;
+}
+.txt h4{
+    display: block;
+        color: white;
+        padding: 2px;
+        text-decoration: none;
+    font-size:1.05vmax;
+    margin: 0px;
+    margin-left: 10px;
+    font-family: 'Asap', sans-serif;
+    letter-spacing: 2px;
+}
+
+.cntr{
+    position: absolute;
+     left: 36%; 
+    bottom: 15px;
+    width: fit-content;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3C4043 ;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin: 8px;
+}
+.icon img{
+    align-items: center;
+}
+
+.end{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    width: fit-content;
+}
+.end .icon {
+    background-color: transparent;
+}
