@@ -13,6 +13,8 @@ h4{
     height: 30px;
     background-color: crimson;
     width:fit-content;
+    justify-content: center;
+    align-items: center;
     color: white;
     border-radius: 10px;
 }
@@ -20,11 +22,11 @@ h4{
     padding: 2px;
 }
 .row h4 {
-    display: block;
-
-    padding: 2px;
-    padding-top:8px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
     text-decoration: none;
+    font-family: monospace;
     font-size:1.3vmax;
     margin: 0px;
   }
@@ -62,6 +64,7 @@ h4{
     margin-left: 120px;
 }
 .student{
+    position: relative;
     border-radius: 10px;
     width: 200px;
     height: 120px;
@@ -93,6 +96,7 @@ footer{
     font-size:1.05vmax;
     margin: 0px;
     margin-left: 10px;
+    font-weight: 500;
     font-family: 'Asap', sans-serif;
     letter-spacing: 2px;
 }
@@ -110,7 +114,7 @@ footer{
     background-color:#3C4043 ;
 width: 40px;
 height: 40px;
-border-radius: 50%;
+border-radius: 20px;
 margin: 8px;
 }
 .icon img{
@@ -125,4 +129,10 @@ margin: 8px;
 }
 .end .icon {
     background-color: transparent;
+}
+.mic{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
 }
