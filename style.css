@@ -23,6 +23,7 @@ h4{
 }
 .row h4 {
     display: flex;
+    padding-right: 5px;
     align-items: center;
     justify-self: center;
     text-decoration: none;
