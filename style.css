@@ -64,6 +64,9 @@ h4{
     margin-right: 120px;
     margin-left: 120px;
 }
+.presentation img{
+    width: 100%;
+}
 .student{
     position: relative;
     border-radius: 10px;
