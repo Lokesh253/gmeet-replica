@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+h1 {
+    padding: 4px;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    font-family: monospace;
+}
+.sentence{
+    display: flex;
+}
+.s{
+    color:deeppink;
+    padding-right: 3%;
+}
+.variable_name{
+    color: white;
+}
+.data{
+    color: yellow;
+}
+.semicolon{
+    color: darkslateblue;
+}
